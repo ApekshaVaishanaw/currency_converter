@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script defer src="js/countries.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="bgimg">
+        <img src="bgimg.jpg">
+    </div>
+    <div class="container">
+      <h2 style="color: white; background-color: rgb(238, 156, 90);;">Currency Converter</h2>
+      <div class="wrapper">
+        <form>
+          <div class="amount">
+            <p>Amount</p>
+            <input type="text" value="1" style="background-color: white;"/>
+          </div>
+          <div class="convert_box">
+            <div class="from">
+              <p>From</p>
+              <div class="select_input" style="background-color: white;">
+                <img src="https://flagcdn.com/48x36/us.png" alt="" />
+                <select>
+                 
+                </select>
+              </div>
+            </div>
+            <div class="reverse"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+              <p>To</p>
+              <div class="select_input" style="background-color: white;">
+                <img src="https://flagcdn.com/48x36/gb.png" alt="" />
+                <select></select>
+              </div>
+            </div>
+            <div class="result">Getting Exchange Rate............</div>
+          </div>
+        </form>
+      </div>
+      <button type="button" style="background-color: rgb(226, 125, 43);">Convert</button>
+    </div>
+  </body>
+</html>
